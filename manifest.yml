@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Luzaga-Cellar
+  host: Luzaga-Cellar
+  disk_quota: 1024M
+  services:
+  - myIoTmadrid-iotf-service
+  - Luzaga-Cellar-cloudantNoSQLDB
